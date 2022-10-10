@@ -1,0 +1,5 @@
+These files were written with the intetion to use the code to create a database of images that can be handled by the AI.
+The issue with using this system is that you put a hard limit on the amount of images. A better solution would be to keep the images at their 
+original size and to make a dynamic script that opens the image and randomly takes out a crop from the image.
+It can then manipulate the crop to completely randomize the image that the AI receives.
+The files are kept in since they can be used for other forms and are in some way connected to the annotation tool.
