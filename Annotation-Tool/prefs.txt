@@ -2,5 +2,5 @@ right
 left
 top
 False
-C:\Users\mheva\OneDrive\Documents\GitHub\Stitching_Arm_Master_Thesis\Annotation-Tool\labels.xlsx
-C:\Users\mheva\OneDrive\Documents\GitHub\Stitching_Arm_Master_Thesis\Annotation-Tool
+C:\Users\mheva\OneDrive\Documents\GitHub\Annotation_Tool_Database\Annotation-Tool\labels.xlsx
+C:\Users\mheva\OneDrive\Bureaublad\temp

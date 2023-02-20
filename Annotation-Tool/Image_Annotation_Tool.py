@@ -405,24 +405,18 @@ class Annotate():
         ydata = step.ydata # get event y location
         if step.button == 'up':
             # deal with zoom in
-            print("up")
             scale_factor = 1/1.5
         elif step.button == 'down':
-            print("down")
             # deal with zoom out
             scale_factor = 1.5
         else:
             # deal with something that should never happen
             scale_factor = 1
-            print(step.button)
         # set new limits
         self.ax.set_xlim([xdata - cur_xrange*scale_factor,
                      xdata + cur_xrange*scale_factor])
-        print(self.ax)
         self.ax.set_ylim([ydata - cur_yrange*scale_factor,
                      ydata + cur_yrange*scale_factor])
-        print(self.ax)
-        print(self.fig)
         plt.show()
 
     def submit_polygon(self):
