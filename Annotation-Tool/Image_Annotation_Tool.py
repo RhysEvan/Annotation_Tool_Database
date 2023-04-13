@@ -514,11 +514,12 @@ import h5py
 
 def save_labeled(fn, label_im):
     if ".jpg" in fn.lower() or ".tif" in fn.lower():
-        fn_out = fn.replace('.jpg', '_label.tiff')
         fn_out = fn.replace('.tiff','_label.tiff')
+        fn_out = fn_out.replace('.jpg', '_label.tiff')
         label_im = label_im*255 #outgoing image is an array with 0 where the user didnt draw polygons and 1 where they did,
                                 #since image tools like the built-in one in everyones pc needs values between 0 and 255, having
                                 #a value of 1 would be practically invisible for us.
+
         io.imsave(fn_out,label_im)
     if ".png" in fn.lower():
         fn_out = fn.replace('.png', '_label.tiff')

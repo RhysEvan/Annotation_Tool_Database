@@ -3,4 +3,4 @@ left
 top
 False
 C:\Users\mheva\OneDrive\Documents\GitHub\Annotation_Tool_Database\Annotation-Tool\labels.xlsx
-C:\Users\mheva\OneDrive\Bureaublad\temp
+C:\Users\mheva\OneDrive\Bureaublad\fotos Rhys
